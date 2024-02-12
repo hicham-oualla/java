@@ -36,7 +36,7 @@ public class Apprenant {
         app1.Numtelephone=scan.nextInt();
         System.out.printf("NumClasse :");
         app1.Numclasse=scan.nextInt();
-        Tab.add(app1);
+        Tab.add(app1) ;
     }
     public  void  Afficher(ArrayList<Apprenant> Tab) {
         for(Apprenant A:Tab)
