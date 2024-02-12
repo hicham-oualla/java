@@ -21,6 +21,7 @@ public class Apprenant {
     }
 
     public void AjouterApprent(ArrayList<Apprenant> Tab){
+        // crer un objet
         Apprenant app1 = new Apprenant();
         Scanner scan=new Scanner(System.in);
         System.out.printf("Nom :");
@@ -30,7 +31,7 @@ public class Apprenant {
         System.out.printf("DateNais :");
         app1.DateNais=scan.next();
         System.out.printf("Adresse :");
-        app1.Adresse=scan.next();
+        app1.Adresse=scan.nextLine();
         System.out.printf("Tel :");
         app1.Numtelephone=scan.nextInt();
         System.out.printf("NumClasse :");
